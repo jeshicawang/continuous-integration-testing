@@ -1,0 +1,33 @@
+{
+  "name": "integration-testing",
+  "version": "1.0.0",
+  "description": "Integration testing for a Notes app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "tdd": "mocha --watch -R nyan",
+    "start": "node .",
+    "watch": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeshicawang/integration-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeshicawang/integration-testing/issues"
+  },
+  "homepage": "https://github.com/jeshicawang/integration-testing#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.79.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1"
+  }
+}
